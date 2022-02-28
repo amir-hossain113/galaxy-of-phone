@@ -10,12 +10,17 @@
 </head>
 <body>
     <!-- site name -->
-    <h1 class="text-center mt-3 mb-3 mx-auto text-info">Galaxy of Phone</h1>
+    <h1 class="text-center mt-3 mb-4 mx-auto text-info">Galaxy of Phone</h1>
 
     <!-- input field & button -->
-    <div class="input-group mb-3 w-50 mx-auto">
+    <div class="input-group mb-5 w-50 mx-auto">
         <input id="search-field" type="text" class="form-control" placeholder="Type your favourite phone" aria-label="Recipient's username" aria-describedby="button-addon2">
         <button onclick="searchPhone()" class="btn btn-outline-warning" type="button" id="button-addon2">Search</button>
+    </div>
+
+
+    <!-- phone search result -->
+    <div id="search-result" class="row row-cols-1 row-cols-md-3 g-4">
     </div>
 
     <!-- bootstrap js -->
